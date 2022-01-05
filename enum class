@@ -1,3 +1,4 @@
+//simple example of the enum class
 enum Size {
    SMALL, MEDIUM, LARGE, EXTRALARGE
 }
