@@ -1,3 +1,4 @@
+//singletons in java
 class Database {
    private static Database dbObject;
 
