@@ -1,0 +1,24 @@
+abstract class Industries {
+    abstract void food_inducstries();
+    
+    public void description() {
+            System.out.println("Football shoes should have spikes");
+    }
+    
+}
+
+class Manufacturing extend Industries {
+    public void food_industries() {
+        System.out.println("process food");
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        
+        Manufacturing obj = new Manufacturing();
+        
+        obj.food_industries();
+        obj.description();
+    }
+}
