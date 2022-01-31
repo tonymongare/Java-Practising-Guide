@@ -1,0 +1,22 @@
+interface SendMoney {
+    public void message ();
+}
+
+class Send {
+    public void create_class() {
+        
+        SendMoney send_obj = new SendMoney() {
+            public void message() {
+                System.out.println("Confirmed $45 sent to mary johns");
+            }
+        };
+        send_obj.message();
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Send obj = new Send();
+        obj.create_class();
+    }
+}
