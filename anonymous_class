@@ -1,0 +1,26 @@
+class Polygon {
+    public void display() {
+        System.out.println("This is the superclass");
+    }
+}
+
+class Triangle {
+    public void createsubclass() {
+        
+        Polygon obj =  new Polygon() {
+            public void display() {
+                System.out.println("Inside the subclass");
+            }
+        };
+        //calling the method inside subclass
+        obj.display();
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        //creating object of class Triangle
+        Triangle obj_triangle = new Triangle();
+        obj_triangle.createsubclass();
+    }
+}
