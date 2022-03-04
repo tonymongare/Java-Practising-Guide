@@ -1,4 +1,4 @@
-//Polymorphis
+//Polymorphism
 class Music {
     public void genre() {
         System.out.println("Listening to Music...");
