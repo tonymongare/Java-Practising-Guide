@@ -1,4 +1,4 @@
-//
+
 class Car {
     String carName;
     String carType;
