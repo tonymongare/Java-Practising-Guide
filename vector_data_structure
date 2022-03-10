@@ -1,0 +1,19 @@
+import java.util.Vector;
+
+class Main {
+    public static void main(String[] args) {
+        
+        Vector<String> animals = new Vector<>();
+        
+        animals.add("elephant");
+        animals.add("lion");
+        animals.add("tiger");
+        animals.add("hippo");
+        
+        String rs = animals.get(3);
+        System.out.println(rs);
+        
+        animals.clear();
+        System.out.println(animals);
+    }
+}
