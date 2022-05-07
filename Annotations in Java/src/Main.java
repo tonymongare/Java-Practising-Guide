@@ -1,4 +1,4 @@
-//annotations 
+//annotations in java
 
 class Animal {
     public void display() {
