@@ -33,5 +33,3 @@ class Main {
         Reggobj.genre();
     }
 }
-//
-////
