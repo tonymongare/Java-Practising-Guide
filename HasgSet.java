@@ -22,9 +22,7 @@ class Main {
         numbers1.addAll(numbers2);
         System.out.println(numbers1);
         
-        
-      
-        
+           
         
     }
 }
