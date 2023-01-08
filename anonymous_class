@@ -24,4 +24,4 @@ class Main {
         obj_triangle.createsubclass();
     }
 }
-
+//
