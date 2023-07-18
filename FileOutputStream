@@ -16,7 +16,7 @@ public class Main {
             byte[] Bytesdata = message.getBytes();
             
             //write to the stream output.txt
-/
+
             out.write(Bytesdata);
             
             out.close();
